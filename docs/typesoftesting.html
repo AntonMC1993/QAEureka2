@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad2qa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="../assets/pages.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+
+            <a href="../index.html" class="navbar-brand"> <span class="text-primary">Actividad 2: </span> Plan de
+                Pruebas para API REST SpringBoot.</a>
+            <button class="navbar-toggler" type="button" data-bs-toggler="collapse" data-bs-target="#navbarS"
+                aria-controls="navbarS" aria-expanded="false" aria-label="Toggler navigation">
+
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarS">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+
+                    <li class="nav-item">
+                        <a href="typesoftesting.html" class="nav-link">Tipos de Pruebas de Software</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="differences.html" class="nav-link">Diferencias de QA</a>
+
+                    </li>
+                    <li class="nav-item">
+                        <a href="plan.html" class="nav-link">Plan de Pruebas</a>
+
+                    </li>
+
+                    <li class="nav-item">
+                        <a href="trial.html" class="nav-link">Formato de Pruebas</a>
+
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <br><br><br><br>
+    <div class="container">
+        <section>
+            <h1 class="display-6">¿Qué tipos de pruebas es posible aplicar durante el proceso de
+                desarrollo y ejecución de un software?</h1>
+            <br><br>
+            <p class="text-center"> Durante el proceso de desarrollo y ejecución de un software, se pueden aplicar
+                varios tipos de pruebas para asegurarse de que el software funcione correctamente y cumpla con los
+                requisitos. A continuación, se presentan algunas clasificaciones de los tipos de pruebas más
+                comunes:<br>
+
+            <ul>
+                <strong>Pruebas Unitarias (Unit Testing):</strong>
+                <li>Propósito: Verificar que las unidades individuales de código, como funciones o métodos, funcionen
+                    correctamente</li>
+                <li>Alcance: Prueba de componentes aislados del software.</li>
+                <li>Herramientas: Frameworks de pruebas unitarias como JUnit, NUnit, pytest, etc.</li>
+
+                <strong>Pruebas de Integración (Integration Testing):</strong>
+                <li>Propósito: Comprobar que los diferentes componentes o módulos del software se integren adecuadamente
+                    y funcionen juntos.</li>
+                <li>Alcance: Prueba la interacción entre componentes.</li>
+                <li>Herramientas: Pueden utilizarse herramientas de automatización de pruebas y marcos de pruebas.</li>
+
+                <strong>Pruebas Funcionales (Functional Testing):</strong>
+                <li>Propósito: Evaluar si el software cumple con los requisitos funcionales especificados.</li>
+                <li>Alcance: Enfoque en la funcionalidad desde la perspectiva del usuario final.</li>
+                <li>Herramientas: Pruebas manuales o herramientas de automatización de pruebas como Selenium, Cypress,
+                    etc.</li>
+
+                <strong>Pruebas de Aceptación (Acceptance Testing):</strong>
+                <li>Propósito: Confirmar que el software cumple con los criterios de aceptación y las expectativas del
+                    cliente.</li>
+                <li>Alcance: Puede incluir pruebas de aceptación del usuario (UAT) realizadas por usuarios finales.</li>
+                <li>Herramientas: A menudo son pruebas manuales realizadas por el cliente o equipos de pruebas
+                    dedicados.</li>
+
+                <strong>Pruebas de Regresión (Regression Testing):</strong>
+                <li>Propósito: Asegurarse de que las modificaciones en el código no introduzcan regresiones o errores
+                    nuevos en áreas previamente funcionales.</li>
+                <li>Alcance: Reprueba funcionalidades existentes.</li>
+                <li>Herramientas: Pueden utilizarse herramientas de automatización para acelerar las pruebas de
+                    regresión.</li>
+
+                <strong>Pruebas de Rendimiento (Performance Testing):</strong>
+                <li>Propósito: Evaluar el rendimiento, la velocidad y la escalabilidad del software.</li>
+                <li>Alcance: Prueba el rendimiento bajo diferentes cargas y escenarios.</li>
+                <li>Herramientas: Herramientas de pruebas de carga y rendimiento como Apache JMeter, LoadRunner, etc.
+                </li>
+
+                <strong>Pruebas de Seguridad (Security Testing):</strong>
+                <li>Propósito: Identificar vulnerabilidades y asegurar que el software sea resistente a ataques y cumpla
+                    con estándares de seguridad.</li>
+                <li>Alcance: Se enfoca en la seguridad de datos, autenticación, autorización, etc.</li>
+                <li>Herramientas: Herramientas de pruebas de seguridad como OWASP ZAP, Nessus, etc.</li>
+
+                <strong>Pruebas de Usabilidad (Usability Testing):</strong>
+                <li>Propósito: Evaluar la facilidad de uso, la eficiencia y la satisfacción del usuario al interactuar
+                    con el software.</li>
+                <li>Alcance: Implica a usuarios reales que realizan tareas típicas del sistema.</li>
+                <li>Herramientas: Pruebas conducidas por observadores y herramientas de registro de interacciones.</li>
+
+            </ul>
+
+            Estos son algunos de los tipos de pruebas que se pueden aplicar en el proceso de desarrollo y ejecución de
+            software. La elección de qué tipos de pruebas aplicar depende de los objetivos del proyecto, los requisitos
+            del cliente y las características específicas del software. En muchos casos, se utilizan múltiples tipos de
+            pruebas en combinación para garantizar la calidad y el rendimiento del software.
+            <br><br>
+            Sin embargo, si nos detenemos en otra clasificación más particular, podemos señalar que dentro de los tipos
+            de testing, encontramos los del tipo Manual y Automatizado.<br><br>
+            <li><strong>Testing Manual:</strong></li>Es el proceso de probar software a mano, para obtener más
+            información al respecto y descubrir qué funciona y qué no. Por lo general esto incluye la verificación de
+            todas las características especificadas en los documentos de requisitos. Además los testers prueban el
+            software con la perspectiva de usuario final. Muchos tienen guiones completos, guías que señalan los
+            resultados esperados.
+            <br>
+            <li><strong>Testing Automatizado:</strong></li>Es el proceso de probar el software con una herramienta de
+            automatización para encontrar defectos. En este proceso se ejecutan scripts de prueba y generarán los
+            resultados de forma automática. Algunas de las herramientas más famosas para pruebas funcionales son: Cutty,
+            UTP y Selenium.
+            <br><br>
+            <strong> Métodos de Testing:</strong>
+            <li>Testing Estático: Se conocen también como verificación en pruebas de software. Sirven para verificar
+                documentos y archivos. Es el proceso para asegurarnos de que estamos desarrollando el proyecto
+                correctamente, es decir, para verificar los requisitos que tenemos y verificar si estamos desarrollando
+                el producto en consecuencia o no. Estas prácticas incluyen inspecciones, revisiones, tutoriales y
+                demáses. </li>
+            <li>Testing Dinámico: Se conocen también como validación de pruebas de software. Es un proceso de validación
+                del producto real, es el proceso por el cual nos aseguramos de estar construyendo el producto correcto.
+                Y las actividades involucradas son probar la aplicación de software, no sólo vemos secciones por si
+                mismas, sino que testeamos en conjunto todas las funcionalidades. </li>
+            <br>
+
+            <strong>Prácticas de Testing:</strong><br><br>
+            <li><strong>Pruebas de caja blanca:</strong> Se basa en la estructura del código interno de la aplicación.
+                Se utiliza
+                perspectiva interna del sistema, así como habilidades de programación para diseñar casos de prueba. Esta
+                prueba se realiza a nivel de unidad, también conocido como Unit Testing. Acá se evalúa la entrada y
+                salida verificando lo que sucede internamente.</li>
+            <br>
+            <li><strong>Pruebas de caja negra:</strong> También denominadas como pruebas de comportamiento, están
+                basadas en
+                especificaciones. También conocidas como pruebas de entrada y salida. Se evalúa la funcionalidad del
+                software
+                sin mirar la estructura del código interno. Acá se evalúa la entrada y salida sin mirar lo que suceda de
+                forma interna.</li>
+            <br>
+            <li><strong>Pruebas de caja gris:</strong> Es una combinación de las dos anteriores, se tiene acceso a la
+                documentación del
+                diseño y al código. Esto nos ayuda a crear mejores casos de prueba durante el proceso de testing. </li>
+            </p>
+        </section>
+    </div>
+</body>
+
+</html>
