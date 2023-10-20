@@ -1,4 +1,4 @@
-# ''QA: PLANES DE PRUEBAS''
+# ''EL(LA) ANALISTA QA''
 
 Éste proyecto consiste en un Página web sencilla, tipo HTML5 estática, con diseño de librería Bootstrap, en la que se responden
 las interrogantes sobre los tipos de prueba de software, las diferencias entre los tipos de Analistas QA, y un modelo de 
